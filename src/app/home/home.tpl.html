@@ -1,0 +1,8 @@
+<div class="feed">
+    <div ng-repeat="feed in feeds | orderBy:'title'">
+        <h2><a href="{{feed.link}}" target="_blank">{{feed.title}}</a></h2>
+        <p><span ng-repeat="item in feed.entries">
+            <a href="{{item.link}}" target="_blank">{{item.title}}</a> (<span>{{item.publishedDate | date:'d-MM-yyyy HH:mm'}}</span>)<br />
+        </span></p>
+    </div>
+</div>
