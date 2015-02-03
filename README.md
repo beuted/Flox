@@ -1,4 +1,4 @@
-# Flow
+# Flox
 
 **Ugly RSS reader atm**, *world most famous social network in the future*
 
